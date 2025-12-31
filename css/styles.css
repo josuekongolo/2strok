@@ -271,8 +271,16 @@ p {
 
 .header__logo {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1.1;
+}
+
+.header__logo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .header__logo-text {
@@ -599,6 +607,12 @@ p {
 .service-card__icon svg {
   width: 35px;
   height: 35px;
+}
+
+.service-card__icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .service-card__title {
@@ -1299,9 +1313,16 @@ p {
 
 .footer__logo {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
   margin-bottom: var(--spacing-sm);
+}
+
+.footer__logo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .footer__logo-text {
